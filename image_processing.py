@@ -1,3 +1,5 @@
+import numpy as np
+
 #"Dyskeratotic" , "Koilocytotic" , "Metaplastic" , "Parabasal" , "SuperficialIntermediate"
 
 # this function will encode the labels
