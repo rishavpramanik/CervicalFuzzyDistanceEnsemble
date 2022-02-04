@@ -1,3 +1,5 @@
+import numpy as np
+from scipy import distance
 def fuzzy_dist(classifier1, classifier2, classifier3, verbose=False):
     out = np.empty(len(classifier1))
     for i in range(len(classifier1)):
