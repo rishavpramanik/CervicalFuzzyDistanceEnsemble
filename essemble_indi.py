@@ -1,3 +1,4 @@
+from image_processing import process_x,encode_y
 def essemble_indi(x_val, y_val,  model_name1, model_name2, model_name3, fold_no, validation_batch=16):
 
     x_val, y_val = process_x(x_val), encode_y(y_val)
