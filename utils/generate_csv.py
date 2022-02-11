@@ -29,16 +29,16 @@ def generate_csv():
     data = []
     for dir in dirs :
         for unique in uniques:
-            directory = "data/SiPakMed/" + dir + "/" + unique
+            directory = "data/SiPakMed/" + dir + "/" + unique    #required path 
 
             for filename in os.listdir(directory):
                
-                path = directory + "/" + filename 
+                path = directory + "/" + filename  #required path 
                 data.append([ filename , path  , unique])
 
     df = pd.DataFrame(data, columns = ["filename" ,"path", "class"]) 
     df = shuffle(df)
-    name = "csv_files/" + "Data-full"
+    name = "csv_files/" + "Data-full"        #required path 
     df.to_csv(name, index = False )
     print("runing")
 
