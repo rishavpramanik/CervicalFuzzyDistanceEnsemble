@@ -1,5 +1,6 @@
 import numpy as np
 import scipy
+#Use Verbose if you want to visualise the inner operations
 def fuzzy_dist(classifier1, classifier2, classifier3, verbose=False):
     out = np.empty(len(classifier1))
     for i in range(len(classifier1)):
