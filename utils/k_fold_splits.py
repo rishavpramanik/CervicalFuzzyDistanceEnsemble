@@ -7,7 +7,7 @@ def k_fold_splits(x , y , files_for_train_x , files_for_validation_x , files_for
 
   kf = KFold(n_splits = n_splits)
   #https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.KFold.html
-  fold_no = 1
+  #fold_no = 1
   for train_index, val_index in kf.split(x):
 
       
@@ -26,4 +26,4 @@ def k_fold_splits(x , y , files_for_train_x , files_for_validation_x , files_for
       files_for_validation_x.append(x_val)
       files_for_train_y.append(y_train)
       files_for_validation_y.append(y_val)
-      fold_no += 1 
+      #fold_no += 1 
