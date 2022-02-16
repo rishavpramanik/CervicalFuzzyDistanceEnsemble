@@ -236,9 +236,9 @@ def k_fold_separate(x_train , y_train , x_val ,y_val , model_name1,model_name2,m
     print('Conf Matrix Score(Class wise):\n ',confusion_matrix(y_val,y_preds ))   
     
     ensem_pred=fuzzy_dist(preds1,preds2,preds3)
-    print('Post Enemble Accuracy Score: ',accuracy_score(y_val,ensem_pred))
+    print('Post Ensemble Accuracy Score: ',accuracy_score(y_val,ensem_pred))
 
-    print('Post Enemble Precision Score(Class wise): ',precision_score(y_val,ensem_pred , average= None ) , " mean- " , precision_score(y_val,ensem_pred , average= None )/n )
-    print('Post Enemble Recall Score(Class wise): ',recall_score(y_val,ensem_pred , average= None ), " mean- " , recall_score(y_val,ensem_pred , average= None )/n)
-    print('Post Enemble F1 Score(Class wise): ',f1_score(y_val,ensem_pred , average= None), " mean- " , f1_score(y_val,ensem_pred , average= None)/n)
-    print('Post Enemble Conf Matrix Score(Class wise):\n ',confusion_matrix(y_val,ensem_pred ))
+    print('Post Ensemble Precision Score(Class wise): ',precision_score(y_val,ensem_pred , average= None ) , " mean- " , precision_score(y_val,ensem_pred , average= None )/n )
+    print('Post Ensemble Recall Score(Class wise): ',recall_score(y_val,ensem_pred , average= None ), " mean- " , recall_score(y_val,ensem_pred , average= None )/n)
+    print('Post Ensemble F1 Score(Class wise): ',f1_score(y_val,ensem_pred , average= None), " mean- " , f1_score(y_val,ensem_pred , average= None)/n)
+    print('Post Ensemble Conf Matrix Score(Class wise):\n ',confusion_matrix(y_val,ensem_pred ))
