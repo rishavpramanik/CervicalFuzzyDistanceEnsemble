@@ -1,3 +1,4 @@
+[![Code Test](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml/badge.svg)](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml)
 # Cervical cancer detection from Pap Smear Images
 Based on our paper entitled "A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection" under major review in Computer Methods and Programs in Biomedicine, Elsevier
 # Datasets Used
