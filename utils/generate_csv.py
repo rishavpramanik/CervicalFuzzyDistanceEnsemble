@@ -40,8 +40,8 @@ def generate_csv(path):
     df = pd.DataFrame(data, columns = ["filename" ,"path", "class"]) 
     df = shuffle(df)
     name = "csv_files/" + "Data-full"        #required path 
-    df.to_csv(name, index = False )
-    print("runing")
+    df.to_csv(name, index = False)
+    print("Generation Complete")
 
     return df    
 
