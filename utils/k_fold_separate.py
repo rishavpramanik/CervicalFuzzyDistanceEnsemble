@@ -40,7 +40,7 @@ def process_x(x):
 
 
 
-def k_fold_separate(x_train , y_train , x_val ,y_val , model_name1,model_name2,model_name3 ,fold_no ,  NUM_EPOCHS = 70 , train_batch=16 , validation_batch = 16  ):
+def k_fold_separate(x_train , y_train , x_val ,y_val , model_name1,model_name2,model_name3 ,fold_no ,  NUM_EPOCHS = 70 , train_batch=16 , validation_batch = 16, lr=1e-4  ):
 
     train_datagen = ImageDataGenerator(rotation_range = 40,
                                    width_shift_range = 0.2,
@@ -77,7 +77,7 @@ def k_fold_separate(x_train , y_train , x_val ,y_val , model_name1,model_name2,m
     
     # Compile the model
     model1.compile(loss='sparse_categorical_crossentropy',
-                  optimizer= tf.keras.optimizers.Adam(learning_rate=0.0001, beta_1=0.9, beta_2=0.999, decay=0.0001),
+                  optimizer= tf.keras.optimizers.Adam(learning_rate=lr, beta_1=0.9, beta_2=0.999, decay=0.0001),
                   metrics=['accuracy'])
 
 
