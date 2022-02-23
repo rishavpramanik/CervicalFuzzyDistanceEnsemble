@@ -5,5 +5,5 @@ seaborn
 opencv-python
 tensorflow
 sklearn
-skimage
+scikit-image
 scipy
