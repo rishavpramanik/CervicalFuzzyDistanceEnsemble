@@ -3,7 +3,7 @@ import os
 import pandas as pd 
 from sklearn.utils import shuffle
 
-def generate_csv():
+def generate_csv(path):
     print("runing")
     uniques = ["Dyskeratotic" , "Koilocytotic" , "Metaplastic" , "Parabasal" , "SuperficialIntermediate"]
     dirs = ["train" , "test"]
@@ -25,11 +25,12 @@ def generate_csv():
 
     
     """
+    #Above is the expected directory structure
 
     data = []
     for dir in dirs :
         for unique in uniques:
-            directory = "data/SiPakMed/" + dir + "/" + unique    #required path 
+            directory = path + "/" + dir + "/" + unique    #required path 
 
             for filename in os.listdir(directory):
                
