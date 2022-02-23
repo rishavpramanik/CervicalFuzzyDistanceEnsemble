@@ -42,7 +42,6 @@ def generate_csv(path):
     name = "csv_files/" + "Data-full"        #required path 
     df.to_csv(name, index = False)
     print("Generation Complete")
-
     return df    
 
 
