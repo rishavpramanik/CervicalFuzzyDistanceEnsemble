@@ -31,7 +31,8 @@ k_fold_splits(x,y, files_for_train_x ,  files_for_validation_x ,
 #n is the number of folds
 n = len(files_for_train_x)
 for i in range(0,n):
-    k_fold_separate(files_for_train_x[i] , files_for_train_y[i] , files_for_validation_x[i] ,files_for_validation_y[i] ,
+    k_fold_separate(files_for_train_x[i] , files_for_train_y[i] ,
+                    files_for_validation_x[i] ,files_for_validation_y[i] ,
                     "InceptionV3" , "MobileNetV2" ,"InceptionResNetV2" ,i+1 ,
                     NUM_EPOCHS = args.num_epochs , train_batch=args.batch_size ,
                     validation_batch = args.batch_size, lr=args.lr) 
