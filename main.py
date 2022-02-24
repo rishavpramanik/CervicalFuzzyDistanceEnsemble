@@ -11,6 +11,8 @@ parser.add_argument('--path', type=str, default = './',
                     help='Path where the image data is stored')
 parser.add_argument('--batch_size', type=int, default = 16,
                     help='Batch Size for Mini Batch Training')
+parser.add_argument('--kfold', type=int, default = 5,
+                    help='Number of folds for training')
 parser.add_argument('--lr', type=float, default = 1e-4,
                     help='Learning rate for training')
 args = parser.parse_args()
@@ -26,7 +28,7 @@ files_for_train_y = []
 files_for_validation_y = []
 
 k_fold_splits(x,y, files_for_train_x ,  files_for_validation_x ,
-              files_for_train_y , files_for_validation_y ) # n_splits = 5
+              files_for_train_y , files_for_validation_y,  n_splits = args.kfold ) # n_splits = 5
 
 #N is the number of folds
 N = len(files_for_train_x)
