@@ -28,7 +28,7 @@ files_for_validation_y = []
 k_fold_splits(x,y, files_for_train_x ,  files_for_validation_x ,
               files_for_train_y , files_for_validation_y ) # n_splits = 5
 
-#n is the number of folds
+#N is the number of folds
 N = len(files_for_train_x)
 for i in range(0,N):
     k_fold_separate(files_for_train_x[i] , files_for_train_y[i] ,
