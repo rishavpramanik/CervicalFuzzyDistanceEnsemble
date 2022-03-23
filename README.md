@@ -1,6 +1,6 @@
 [![Code Test](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml/badge.svg)](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml)
 # Cervical cancer detection from Pap Smear Images
-Based on our paper entitled "A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection" under minor review in Computer Methods and Programs in Biomedicine, Elsevier
+Based on our paper entitled "A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection" accepted in in Computer Methods and Programs in Biomedicine, Elsevier
 # Datasets Links
 1. [SIPaKMeD SCI Pap Smear Images](https://www.cs.uoi.gr/~marina/sipakmed.html)
 2. [Herlev](http://mde-lab.aegean.gr/index.php/downloads)
