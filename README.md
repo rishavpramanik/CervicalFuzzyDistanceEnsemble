@@ -9,3 +9,8 @@ Based on our paper entitled "A Fuzzy Distance-based Ensemble of Deep Models for 
 1. Download the repository and install the required packages
 2. The main file is sufficient to run the experiments.
 3. Please don't forget to edit the parameters before you start
+## Citation:
+```
+@article{
+}
+```
