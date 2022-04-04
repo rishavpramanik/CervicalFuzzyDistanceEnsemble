@@ -8,12 +8,13 @@ Find the original paper [here](https://www.sciencedirect.com/science/article/pii
 <p align="center">
   <img src="./pipe.jpg" width="600" title="Overall Pipeline">
 </p>
+
+
 # Datasets Links
 1. [SIPaKMeD SCI Pap Smear Images](https://www.cs.uoi.gr/~marina/sipakmed.html)
 2. [Herlev](http://mde-lab.aegean.gr/index.php/downloads)
 3. [Mendeley LBC](https://data.mendeley.com/datasets/zddtpgzv63/4)
 # Instructions to run the code
-## Running the codes:
 Required directory structure:
 
 (Note: ``train`` and ``val`` contains subfolders representing classes in the dataset.)
