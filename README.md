@@ -37,11 +37,11 @@ Required directory structure:
 
 - 
 1. Download the repository and install the required packages:
-`pip install -r requirements.txt`
+```pip3 install -r requirements.txt```
 2. The main file is sufficient to run the experiments.
-Then, run the code using the command prompt as follows:
+Then, run the code using linux terminal as follows:
 
-`python main.py --data_directory "data"`
+```python3 main.py --data_directory "data"```
 
 Available arguments:
 - `--num_epochs`: Number of epochs of training. Default = 70
