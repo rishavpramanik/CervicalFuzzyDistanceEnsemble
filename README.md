@@ -1,6 +1,6 @@
 [![Code Test](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml/badge.svg)](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml)
 # Cervical cancer detection from Pap Smear Images
-"A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection" published in in Computer Methods and Programs in Biomedicine, Elsevier
+"A fuzzy distance-based ensemble of deep models for cervical cancer detection" published in Computer Methods and Programs in Biomedicine, Elsevier
 
 **A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection:**
 
@@ -51,15 +51,17 @@ Available arguments:
 - `--kfold`: K-Fold, to perform K fold cross validation. Default= 5
 
 3. Please don't forget to edit the above parameters before you start
-## Citation:
+## Citation
 ```
 @article{pramanik2022fuzzy,
-  title={A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection},
-  author={Pramanik, Rishav and Biswas, Momojit and Sen, Shibaprasad and de Souza J{\'u}nior, Luis Antonio and Papa, Jo{\~a}o Paulo and Sarkar, Ram},
-  journal={Computer Methods and Programs in Biomedicine},
-  doi= {10.1016/j.cmpb.2022.106776},
-  pages={106776},
-  year={2022},
-  publisher={Elsevier}
+title = {A fuzzy distance-based ensemble of deep models for cervical cancer detection},
+author={Pramanik, Rishav and Biswas, Momojit and Sen, Shibaprasad and de Souza J{\'u}nior, Luis Antonio and Papa, Jo{\~a}o Paulo and Sarkar, Ram},
+journal = {Computer Methods and Programs in Biomedicine},
+volume = {219},
+pages = {106776},
+year = {2022},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2022.106776},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260722001626}
 }
 ```
