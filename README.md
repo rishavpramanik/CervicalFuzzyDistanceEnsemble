@@ -2,7 +2,7 @@
 # Cervical cancer detection from Pap Smear Images
 "A fuzzy distance-based ensemble of deep models for cervical cancer detection" published in Computer Methods and Programs in Biomedicine, Elsevier
 
-**A Fuzzy Distance-based Ensemble of Deep Models for Cervical Cancer Detection:**
+**A fuzzy distance-based ensemble of deep models for cervical cancer detection**
 
 Find the original paper [here](https://www.sciencedirect.com/science/article/pii/S0169260722001626).
 <p align="center">
