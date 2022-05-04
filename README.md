@@ -1,4 +1,6 @@
 [![Code Test](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml/badge.svg)](https://github.com/rishavpramanik/CervicalFuzzyDistanceEnsemble/actions/workflows/CodeQL.yml)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-fuzzy-distance-based-ensemble-of-deep/image-classification-on-herlev)](https://paperswithcode.com/sota/image-classification-on-herlev?p=a-fuzzy-distance-based-ensemble-of-deep)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-fuzzy-distance-based-ensemble-of-deep/image-classification-on-sipakmed)](https://paperswithcode.com/sota/image-classification-on-sipakmed?p=a-fuzzy-distance-based-ensemble-of-deep)
 # Cervical cancer detection from Pap Smear Images
 "A fuzzy distance-based ensemble of deep models for cervical cancer detection" published in Computer Methods and Programs in Biomedicine (June 2022), Elsevier
 ```
