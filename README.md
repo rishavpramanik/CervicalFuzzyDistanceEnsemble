@@ -12,7 +12,7 @@ volume = {219},
 pages = {106776},
 year = {2022},
 issn = {0169-2607},
-doi = {https://doi.org/10.1016/j.cmpb.2022.106776},
+doi = {j.cmpb.2022.106776},
 url = {https://www.sciencedirect.com/science/article/pii/S0169260722001626}
 }
 ```
