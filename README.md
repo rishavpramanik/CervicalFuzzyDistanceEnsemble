@@ -12,7 +12,7 @@ volume = {219},
 pages = {106776},
 year = {2022},
 issn = {0169-2607},
-doi = {j.cmpb.2022.106776},
+doi = {10.1016/j.cmpb.2022.106776},
 url = {https://www.sciencedirect.com/science/article/pii/S0169260722001626}
 }
 ```
@@ -51,11 +51,15 @@ Required directory structure:
 
 - 
 1. Download the repository and install the required packages:
-```pip3 install -r requirements.txt```
+```
+pip3 install -r requirements.txt
+```
 2. The main file is sufficient to run the experiments.
 Then, run the code using linux terminal as follows:
 
-```python3 main.py --data_directory "data"```
+```
+python3 main.py --data_directory "data"
+```
 
 Available arguments:
 - `--num_epochs`: Number of epochs of training. Default = 70
