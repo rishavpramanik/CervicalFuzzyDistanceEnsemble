@@ -23,33 +23,26 @@ Find the original paper [here](https://www.sciencedirect.com/science/article/pii
   <img src="./pipe.jpg" width="600" title="Overall Pipeline">
 </p>
 
-
 # Datasets Links
 1. [SIPaKMeD SCI Pap Smear Images](https://www.cs.uoi.gr/~marina/sipakmed.html)
 2. [Herlev](http://mde-lab.aegean.gr/index.php/downloads)
 3. [Mendeley LBC](https://data.mendeley.com/datasets/zddtpgzv63/4)
+
 # Instructions to run the code
 Required directory structure:
-
-(Note: ``train`` and ``val`` contains subfolders representing classes in the dataset.)
-
+(Note: ``train`` and ``test`` contains subfolders representing classes in the dataset.)
 ```
-
 +-- data
-|   +-- .
 |   +-- train
 |   |   +--class A
 |   |   +--class B
 |   |   ...
-|   +-- val
+|   +-- test
 |   |   +--class A
 |   |   +--class B
 |   |   ...
 +-- main.py
-
 ```
-
-- 
 1. Download the repository and install the required packages:
 ```
 pip3 install -r requirements.txt
@@ -69,5 +62,3 @@ Available arguments:
 - `--kfold`: K-Fold, to perform K fold cross validation. Default= 5
 
 3. Please don't forget to edit the above parameters before you start
-
-
