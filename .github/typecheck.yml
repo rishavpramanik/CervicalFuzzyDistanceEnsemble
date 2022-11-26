@@ -1,0 +1,2 @@
+- name: Pyre Action
+  uses: facebook/pyre-action@v0.0.1
