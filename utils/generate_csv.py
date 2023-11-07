@@ -6,7 +6,6 @@ def generate_csv(path):
     print("CSV being generated")
     uniques = ["Dyskeratotic" , "Koilocytotic" , "Metaplastic" , "Parabasal" , "SuperficialIntermediate"]
     dirs = ["train" , "test"]
-
     """
             +-- train
             |   +-- Dyskeratotic
@@ -21,8 +20,6 @@ def generate_csv(path):
             |   +-- Metaplastic
             |   +-- Parabasal
             |   +-- SuperficialIntermediate
-
-    
     """
     #Above is the expected directory structure
 
@@ -32,7 +29,6 @@ def generate_csv(path):
             directory = path + "/" + dir + "/" + unique    #required path 
 
             for filename in os.listdir(directory):
-               
                 paths = directory + "/" + filename  #required path 
                 data.append([ filename , paths  , unique])
 
